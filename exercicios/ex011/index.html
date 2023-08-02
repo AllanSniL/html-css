@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir ess site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="https://i.ibb.co/Ypz72rR/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="https://i.ibb.co/3RhTjgr/foto-m.png" type="image/png">
+        <img src="https://i.ibb.co/DpTn2zL/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+    <audio preload="auto" controls  >
+        <source src="midias/runletting.mp3" type="audio/mpeg">
+       
+    </audio>
+    <p>Infelizmente não consigo reproduzir pelo seu dispositivo. Clique <a href="midias/runletting.mp3" download="midias/runletting">aqui</a> para realizar o download!</p>
+    
+</body>
+</html>

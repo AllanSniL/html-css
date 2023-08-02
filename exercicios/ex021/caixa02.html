@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: lightgray;
+            margin: 0;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.582);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+        article{
+            background-color: yellowgreen;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(180, 173, 173);
+            color: white;
+
+        }
+        nav{
+            background-color: rgb(206, 195, 195);
+            padding: 3px;
+            box-shadow: -3px -2px 11px 1px rgba(0, 0, 0, 0.438);
+            box-shadow: inset -3px -2px 11px 1px rgba(0, 0, 0, 0.37);
+            
+        
+
+        }
+        nav >a {
+            text-decoration: none;
+            font: italic normal 16px cursive;
+            margin-right: 30px;
+            color: white;
+
+        }
+
+        nav>a:hover{
+            background-color: rgb(226, 213, 238);
+            text-decoration: underline;
+
+         }
+        footer>p{
+            margin: 0px;
+        }
+
+        h1{
+            box-shadow: 1px -3px 6px 3px black;
+                    }
+        #bola{
+            height: 100px;
+            width: 100px;
+            background-color: green;
+            margin: 10px;
+            border-radius: 50px;
+        }
+        div>p{
+            color: white;
+            padding-top: 40px;
+            margin-left: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Allan DEV</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Jogos e Gostosas</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Volta Lucoso ;-;</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur ipsa recusandae, ad distinctio aspernatur tempora enim eius veniam commodi reiciendis accusamus hic id, vitae tempore sit exercitationem rem delectus amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium itaque alias mollitia facilis aspernatur optio, accusamus illo, laboriosam officia tempora suscipit quia voluptatem ea expedita, maiores pariatur. Molestiae, dolore omnis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error est officiis voluptatum reprehenderit porro sapiente ut doloribus aliquid voluptatem, qui alias modi, sunt iste fugit illum architecto corporis repellendus!</p>
+                <aside>
+                    <p>Artigo escrito por El pepes morenos (2023)</p>
+                </aside>
+
+            </article>
+            <article>
+
+            </article>
+            
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido por Allan Lins</p>
+    </footer>
+    <div id="bola">
+        <p>Q loco!</p>
+
+    </div>
+</body>
+</html>
